@@ -25,9 +25,7 @@
   --docsearch-loading-background: theme('colors.slate.400');
   --docsearch-loading-foreground: theme('colors.slate.900');
 }
-.DocSearch-Logo {
-    display: none;
-}
+
 .dark {
   --docsearch-highlight-color: var(--docsearch-primary-color);
   --docsearch-muted-color: theme('colors.slate.400');
