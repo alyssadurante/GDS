@@ -1,0 +1,48 @@
+---
+title: Breadcrumbs
+description: Guidelines for the breadcrumbs component
+---
+
+The breadcrumb is a secondary navigation pattern that helps a user understand the hierarchy among levels and navigate back through them.
+
+---
+
+## Overview
+
+Breadcrumbs show users their current location relative to the information architecture and enable them to quickly move up to a parent level or previous step.
+
+### Anatomy
+
+![Anatomy](https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643768827/breadcrumbs_anatomy_ewszqm.svg)
+
+1. **Home Icon**: This should be the beginning of the navigation, normally the Home page.
+2. **Page Link**: Directs users to the parent-level page.
+3. **Separator**: Clearly distinguishes between each page.
+
+## When to use
+
+Breadcrumbs are effective in products and experiences that have a large amount of content organized in a hierarchy of more than two levels. They take up little space but still provide context for the user’s place in the navigation hierarchy.
+
+## When not to use
+
+Breadcrumbs are always treated as secondary and should never entirely replace the primary navigation. They shouldn’t be used for products that have single level navigation because they create unnecessary clutter.
+
+If you are taking users through a multistep process use a progress indicator instead.
+
+---
+
+## Content
+
+### Page Link
+
+- Each page link should be short and clearly reflect the location or entity it links to.
+- Start with the highest level parent page and move deeper into the information architecture as the breadcrumb trail progresses.
+- By default, the current page is colored with the `primary` color in the breadcrumb trail.
+
+### Overflow conent
+
+When space becomes limited, use an overflow menu to truncate the breadcrumbs. The first and last two page links should be shown, but the remaining breadcrumbs in between are condensed into an overflow menu. Breadcrumbs should never wrap onto a second line.
+
+## Behaviors
+
+All the page links in the breadcrumb component should be interactive and link to their respective pages.
